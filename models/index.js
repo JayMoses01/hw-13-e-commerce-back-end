@@ -17,16 +17,15 @@ Category.belongsToMany(Product, {
     unique: false
   }/*,
   foreignKey: 'category_id' */
-/*});
-*/
+/*});*/
+
 
 
 // Categories have many Products. TRY THIS ONE.
 Category.hasMany(Product, {
-  foreignKey: 'product_id'
+  /*foreignKey: 'product_id' */
 
 });
-
 
 
 
